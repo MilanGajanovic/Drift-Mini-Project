@@ -1,0 +1,12 @@
+C:\Users\Milan\Desktop\Drifters\Drifters.Domain\bin\Debug\net8.0\Drifters.Domain.deps.json
+C:\Users\Milan\Desktop\Drifters\Drifters.Domain\bin\Debug\net8.0\Drifters.Domain.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Domain\bin\Debug\net8.0\Drifters.Domain.pdb
+C:\Users\Milan\Desktop\Drifters\Drifters.Domain\obj\Debug\net8.0\Drifters.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Milan\Desktop\Drifters\Drifters.Domain\obj\Debug\net8.0\Drifters.Domain.AssemblyInfoInputs.cache
+C:\Users\Milan\Desktop\Drifters\Drifters.Domain\obj\Debug\net8.0\Drifters.Domain.AssemblyInfo.cs
+C:\Users\Milan\Desktop\Drifters\Drifters.Domain\obj\Debug\net8.0\Drifters.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Milan\Desktop\Drifters\Drifters.Domain\obj\Debug\net8.0\Drifters.Domain.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Domain\obj\Debug\net8.0\refint\Drifters.Domain.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Domain\obj\Debug\net8.0\Drifters.Domain.pdb
+C:\Users\Milan\Desktop\Drifters\Drifters.Domain\obj\Debug\net8.0\ref\Drifters.Domain.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Domain\obj\Debug\net8.0\Drifters.Domain.csproj.AssemblyReference.cache

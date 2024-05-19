@@ -1,0 +1,15 @@
+C:\Users\Milan\Desktop\Drifters\Drifters.Application\bin\Debug\net8.0\Drifters.Application.deps.json
+C:\Users\Milan\Desktop\Drifters\Drifters.Application\bin\Debug\net8.0\Drifters.Application.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Application\bin\Debug\net8.0\Drifters.Application.pdb
+C:\Users\Milan\Desktop\Drifters\Drifters.Application\obj\Debug\net8.0\Drifters.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Milan\Desktop\Drifters\Drifters.Application\obj\Debug\net8.0\Drifters.Application.AssemblyInfoInputs.cache
+C:\Users\Milan\Desktop\Drifters\Drifters.Application\obj\Debug\net8.0\Drifters.Application.AssemblyInfo.cs
+C:\Users\Milan\Desktop\Drifters\Drifters.Application\obj\Debug\net8.0\Drifters.Application.csproj.CoreCompileInputs.cache
+C:\Users\Milan\Desktop\Drifters\Drifters.Application\obj\Debug\net8.0\Drifters.Application.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Application\obj\Debug\net8.0\refint\Drifters.Application.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Application\obj\Debug\net8.0\Drifters.Application.pdb
+C:\Users\Milan\Desktop\Drifters\Drifters.Application\obj\Debug\net8.0\ref\Drifters.Application.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Application\bin\Debug\net8.0\Drifters.Domain.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Application\bin\Debug\net8.0\Drifters.Domain.pdb
+C:\Users\Milan\Desktop\Drifters\Drifters.Application\obj\Debug\net8.0\Drifters.Application.csproj.AssemblyReference.cache
+C:\Users\Milan\Desktop\Drifters\Drifters.Application\obj\Debug\net8.0\Drifters.232BFD62.Up2Date

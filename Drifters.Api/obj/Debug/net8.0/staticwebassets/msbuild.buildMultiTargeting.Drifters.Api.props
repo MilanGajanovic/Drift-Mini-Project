@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Drifters.Api.props" />
+</Project>
