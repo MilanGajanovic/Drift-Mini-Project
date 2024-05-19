@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Drifters.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfba37a3f0ff49797f06bb554c2c2f364c954e74")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87626c0d9834a8d1f5919b5cf437adf2f2d10a7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Drifters.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Drifters.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

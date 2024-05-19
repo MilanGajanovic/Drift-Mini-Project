@@ -1,5 +1,7 @@
 using Drifters.Application.Interfaces;
+using Drifters.Domain.Entities;
 using Drifters.Infrastructure.Data;
+using FluentValidation.AspNetCore;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,9 +24,10 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddScoped<IDriverRepository, DriverRepository>(provider =>
     new DriverRepository(connectionString, provider.GetRequiredService<ILogger<DriverRepository>>()));
 
+
+builder.Services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<DriverValidator>());
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
