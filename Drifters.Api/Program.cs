@@ -1,17 +1,26 @@
 using Drifters.Application.Interfaces;
 using Drifters.Infrastructure.Data;
-using Microsoft.Extensions.DependencyInjection;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Configure Serilog
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("logs/log.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+
+builder.Host.UseSerilog();
 
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Register repositories
-builder.Services.AddScoped<IDriverRepository>(provider =>
-        new DriverRepository(builder.Configuration.GetConnectionString("DefaultConnection")));
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddScoped<IDriverRepository, DriverRepository>(provider =>
+    new DriverRepository(connectionString, provider.GetRequiredService<ILogger<DriverRepository>>()));
 
 var app = builder.Build();
 
@@ -26,4 +35,4 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 
-app.Run();
+app.Run();  

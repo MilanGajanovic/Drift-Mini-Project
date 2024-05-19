@@ -13,3 +13,4 @@ C:\Users\Milan\Desktop\Drifters\Drifters.Application\bin\Debug\net8.0\Drifters.D
 C:\Users\Milan\Desktop\Drifters\Drifters.Application\bin\Debug\net8.0\Drifters.Domain.pdb
 C:\Users\Milan\Desktop\Drifters\Drifters.Application\obj\Debug\net8.0\Drifters.Application.csproj.AssemblyReference.cache
 C:\Users\Milan\Desktop\Drifters\Drifters.Application\obj\Debug\net8.0\Drifters.232BFD62.Up2Date
+C:\Users\Milan\Desktop\Drifters\Drifters.Application\obj\Debug\net8.0\Drifters.Application.sourcelink.json

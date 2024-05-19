@@ -15,3 +15,4 @@ C:\Users\Milan\Desktop\Drifters\Drifters.Infrastructure\bin\Debug\net8.0\Drifter
 C:\Users\Milan\Desktop\Drifters\Drifters.Infrastructure\bin\Debug\net8.0\Drifters.Application.pdb
 C:\Users\Milan\Desktop\Drifters\Drifters.Infrastructure\bin\Debug\net8.0\Drifters.Domain.pdb
 C:\Users\Milan\Desktop\Drifters\Drifters.Infrastructure\obj\Debug\net8.0\Drifters.08F993EB.Up2Date
+C:\Users\Milan\Desktop\Drifters\Drifters.Infrastructure\obj\Debug\net8.0\Drifters.Infrastructure.sourcelink.json

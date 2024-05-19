@@ -1,0 +1,440 @@
+2024-05-19 20:46:58.229 +02:00 [INF] Now listening on: https://localhost:7222
+2024-05-19 20:46:58.300 +02:00 [INF] Now listening on: http://localhost:5017
+2024-05-19 20:46:58.304 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-19 20:46:58.305 +02:00 [INF] Hosting environment: Development
+2024-05-19 20:46:58.306 +02:00 [INF] Content root path: C:\Users\Milan\Desktop\Drifters\Drifters.Api
+2024-05-19 20:46:59.829 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/index.html - null null
+2024-05-19 20:47:00.146 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/index.html - 200 null text/html;charset=utf-8 319.8662ms
+2024-05-19 20:47:00.187 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-19 20:47:00.189 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/swagger-ui.css - null null
+2024-05-19 20:47:00.190 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/_vs/browserLink - null null
+2024-05-19 20:47:00.219 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 32.2607ms
+2024-05-19 20:47:00.227 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-19 20:47:00.237 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/swagger-ui.css - 499 143943 text/css 47.6775ms
+2024-05-19 20:47:00.315 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/_vs/browserLink - 200 null text/javascript; charset=UTF-8 124.443ms
+2024-05-19 20:47:00.386 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/favicon-32x32.png - null null
+2024-05-19 20:47:00.535 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - null null
+2024-05-19 20:47:00.624 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-19 20:47:00.627 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/favicon-32x32.png - 499 628 image/png 241.079ms
+2024-05-19 20:47:00.833 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 298.012ms
+2024-05-19 20:47:17.106 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7222/api/Drivers - application/json 93
+2024-05-19 20:47:17.117 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api)'
+2024-05-19 20:47:17.146 +02:00 [INF] Route matched with {action = "AddDriver", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] AddDriver(Drifters.Domain.Entities.Driver) on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 20:47:17.201 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api) - Validation state: "Valid"
+2024-05-19 20:47:17.740 +02:00 [INF] Driver added successfully.
+2024-05-19 20:47:17.748 +02:00 [INF] Executed action method Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 536.0248ms.
+2024-05-19 20:47:17.765 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'Drifters.Domain.Entities.Driver'.
+2024-05-19 20:47:17.796 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api) in 637.4103ms
+2024-05-19 20:47:17.801 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api)'
+2024-05-19 20:47:17.806 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7222/api/Drivers - 201 null application/json; charset=utf-8 700.3661ms
+2024-05-19 20:58:01.920 +02:00 [INF] Now listening on: https://localhost:7222
+2024-05-19 20:58:01.979 +02:00 [INF] Now listening on: http://localhost:5017
+2024-05-19 20:58:01.982 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-19 20:58:01.984 +02:00 [INF] Hosting environment: Development
+2024-05-19 20:58:01.986 +02:00 [INF] Content root path: C:\Users\Milan\Desktop\Drifters\Drifters.Api
+2024-05-19 20:58:03.354 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger - null null
+2024-05-19 20:58:03.424 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/index.html - null null
+2024-05-19 20:58:03.554 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger - 499 null null 204.9429ms
+2024-05-19 20:58:03.660 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/index.html - 200 null text/html;charset=utf-8 236.0126ms
+2024-05-19 20:58:03.728 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-19 20:58:03.742 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/_vs/browserLink - null null
+2024-05-19 20:58:03.744 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 16.8989ms
+2024-05-19 20:58:03.822 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/_vs/browserLink - 200 null text/javascript; charset=UTF-8 80.8393ms
+2024-05-19 20:58:03.874 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/favicon-32x32.png - null null
+2024-05-19 20:58:03.951 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-19 20:58:03.964 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - null null
+2024-05-19 20:58:04.014 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/favicon-32x32.png - 499 628 image/png 139.1298ms
+2024-05-19 20:58:04.339 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 374.8491ms
+2024-05-19 20:58:08.981 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/api/Drivers - null null
+2024-05-19 20:58:08.993 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api)'
+2024-05-19 20:58:09.025 +02:00 [INF] Route matched with {action = "GetDrivers", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Drifters.Domain.Entities.Driver]]] GetDrivers() on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 20:58:09.047 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api) - Validation state: "Valid"
+2024-05-19 20:58:09.746 +02:00 [INF] Executed action method Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 690.8149ms.
+2024-05-19 20:58:09.760 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Drifters.Domain.Entities.Driver, Drifters.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-19 20:58:09.776 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api) in 740.01ms
+2024-05-19 20:58:09.779 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api)'
+2024-05-19 20:58:09.784 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/api/Drivers - 200 null application/json; charset=utf-8 802.5328ms
+2024-05-19 20:58:38.841 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7222/api/Drivers - application/json 85
+2024-05-19 20:58:38.855 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api)'
+2024-05-19 20:58:38.873 +02:00 [INF] Route matched with {action = "AddDriver", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] AddDriver(Drifters.Domain.Entities.Driver) on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 20:58:38.920 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api) - Validation state: "Valid"
+2024-05-19 20:58:39.096 +02:00 [ERR] Error adding driver.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Driver' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<InternalExecuteNonQueryAsync>b__193_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Drifters.Infrastructure.Data.DriverRepository.AddDriverAsync(Driver driver) in C:\Users\Milan\Desktop\Drifters\Drifters.Infrastructure\Data\DriverRepository.cs:line 40
+ClientConnectionId:6e3fe657-4924-4752-8018-9b7d132546ea
+Error Number:544,State:1,Class:16
+2024-05-19 20:58:39.365 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api) in 483.9195ms
+2024-05-19 20:58:39.372 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api)'
+2024-05-19 20:58:39.380 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Driver' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<InternalExecuteNonQueryAsync>b__193_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Drifters.Infrastructure.Data.DriverRepository.AddDriverAsync(Driver driver) in C:\Users\Milan\Desktop\Drifters\Drifters.Infrastructure\Data\DriverRepository.cs:line 40
+   at Drifters.Api.Controllers.DriversController.AddDriver(Driver driver) in C:\Users\Milan\Desktop\Drifters\Drifters.Api\Controllers\DriversController.cs:line 40
+   at lambda_method13(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:6e3fe657-4924-4752-8018-9b7d132546ea
+Error Number:544,State:1,Class:16
+2024-05-19 20:58:39.443 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7222/api/Drivers - 500 null text/plain; charset=utf-8 602.0285ms
+2024-05-19 20:58:51.211 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7222/api/Drivers - application/json 85
+2024-05-19 20:58:51.217 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api)'
+2024-05-19 20:58:51.219 +02:00 [INF] Route matched with {action = "AddDriver", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] AddDriver(Drifters.Domain.Entities.Driver) on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 20:58:51.226 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api) - Validation state: "Valid"
+2024-05-19 20:58:51.272 +02:00 [ERR] Error adding driver.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Driver' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<InternalExecuteNonQueryAsync>b__193_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Drifters.Infrastructure.Data.DriverRepository.AddDriverAsync(Driver driver) in C:\Users\Milan\Desktop\Drifters\Drifters.Infrastructure\Data\DriverRepository.cs:line 40
+ClientConnectionId:6e3fe657-4924-4752-8018-9b7d132546ea
+Error Number:544,State:1,Class:16
+2024-05-19 20:58:51.359 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api) in 136.3135ms
+2024-05-19 20:58:51.364 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api)'
+2024-05-19 20:58:51.368 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Driver' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<InternalExecuteNonQueryAsync>b__193_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Drifters.Infrastructure.Data.DriverRepository.AddDriverAsync(Driver driver) in C:\Users\Milan\Desktop\Drifters\Drifters.Infrastructure\Data\DriverRepository.cs:line 40
+   at Drifters.Api.Controllers.DriversController.AddDriver(Driver driver) in C:\Users\Milan\Desktop\Drifters\Drifters.Api\Controllers\DriversController.cs:line 40
+   at lambda_method13(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:6e3fe657-4924-4752-8018-9b7d132546ea
+Error Number:544,State:1,Class:16
+2024-05-19 20:58:51.391 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7222/api/Drivers - 500 null text/plain; charset=utf-8 180.562ms
+2024-05-19 20:59:26.842 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/index.html - null null
+2024-05-19 20:59:26.882 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/index.html - 200 null text/html;charset=utf-8 40.2741ms
+2024-05-19 20:59:26.913 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/_vs/browserLink - null null
+2024-05-19 20:59:26.913 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-19 20:59:26.927 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 14.2623ms
+2024-05-19 20:59:26.953 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.5839ms
+2024-05-19 20:59:27.031 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - null null
+2024-05-19 20:59:27.041 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.3826ms
+2024-05-19 20:59:56.817 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7222/api/Drivers - application/json 86
+2024-05-19 20:59:56.829 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api)'
+2024-05-19 20:59:56.835 +02:00 [INF] Route matched with {action = "AddDriver", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] AddDriver(Drifters.Domain.Entities.Driver) on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 20:59:56.845 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api) - Validation state: "Valid"
+2024-05-19 20:59:56.894 +02:00 [ERR] Error adding driver.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Driver' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<InternalExecuteNonQueryAsync>b__193_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Drifters.Infrastructure.Data.DriverRepository.AddDriverAsync(Driver driver) in C:\Users\Milan\Desktop\Drifters\Drifters.Infrastructure\Data\DriverRepository.cs:line 40
+ClientConnectionId:6e3fe657-4924-4752-8018-9b7d132546ea
+Error Number:544,State:1,Class:16
+2024-05-19 20:59:56.980 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api) in 135.5497ms
+2024-05-19 20:59:56.983 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api)'
+2024-05-19 20:59:56.986 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Driver' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteNonQuery(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteNonQueryAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<InternalExecuteNonQueryAsync>b__193_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteImplAsync(IDbConnection cnn, CommandDefinition command, Object param) in /_/Dapper/SqlMapper.Async.cs:line 662
+   at Drifters.Infrastructure.Data.DriverRepository.AddDriverAsync(Driver driver) in C:\Users\Milan\Desktop\Drifters\Drifters.Infrastructure\Data\DriverRepository.cs:line 40
+   at Drifters.Api.Controllers.DriversController.AddDriver(Driver driver) in C:\Users\Milan\Desktop\Drifters\Drifters.Api\Controllers\DriversController.cs:line 40
+   at lambda_method13(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:6e3fe657-4924-4752-8018-9b7d132546ea
+Error Number:544,State:1,Class:16
+2024-05-19 20:59:57.009 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7222/api/Drivers - 500 null text/plain; charset=utf-8 191.9869ms
+2024-05-19 21:01:45.880 +02:00 [INF] Now listening on: https://localhost:7222
+2024-05-19 21:01:45.948 +02:00 [INF] Now listening on: http://localhost:5017
+2024-05-19 21:01:45.952 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-19 21:01:45.953 +02:00 [INF] Hosting environment: Development
+2024-05-19 21:01:45.954 +02:00 [INF] Content root path: C:\Users\Milan\Desktop\Drifters\Drifters.Api
+2024-05-19 21:01:47.144 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/index.html - null null
+2024-05-19 21:01:47.490 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/index.html - 200 null text/html;charset=utf-8 353.1312ms
+2024-05-19 21:01:47.536 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/swagger-ui.css - null null
+2024-05-19 21:01:47.536 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-19 21:01:47.550 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/_vs/browserLink - null null
+2024-05-19 21:01:47.602 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 66.9296ms
+2024-05-19 21:01:47.614 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-19 21:01:47.619 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/swagger-ui.css - 499 143943 text/css 83.4313ms
+2024-05-19 21:01:47.845 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/_vs/browserLink - 200 null text/javascript; charset=UTF-8 297.1179ms
+2024-05-19 21:01:47.915 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - null null
+2024-05-19 21:01:48.131 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 215.9425ms
+2024-05-19 21:01:57.295 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/api/Drivers - null null
+2024-05-19 21:01:57.302 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api)'
+2024-05-19 21:01:57.328 +02:00 [INF] Route matched with {action = "GetDrivers", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Drifters.Domain.Entities.Driver]]] GetDrivers() on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 21:01:57.338 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api) - Validation state: "Valid"
+2024-05-19 21:01:58.024 +02:00 [INF] Executed action method Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 678.2886ms.
+2024-05-19 21:01:58.041 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Drifters.Domain.Entities.Driver, Drifters.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-19 21:01:58.064 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api) in 727.2937ms
+2024-05-19 21:01:58.073 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api)'
+2024-05-19 21:01:58.081 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/api/Drivers - 200 null application/json; charset=utf-8 785.8147ms
+2024-05-19 21:02:14.223 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7222/api/Drivers - application/json 86
+2024-05-19 21:02:14.227 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api)'
+2024-05-19 21:02:14.240 +02:00 [INF] Route matched with {action = "AddDriver", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] AddDriver(Drifters.Domain.Entities.Driver) on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 21:02:14.313 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api) - Validation state: "Valid"
+2024-05-19 21:02:14.399 +02:00 [INF] Driver added successfully.
+2024-05-19 21:02:14.404 +02:00 [INF] Executed action method Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 86.6348ms.
+2024-05-19 21:02:14.408 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'Drifters.Domain.Entities.Driver'.
+2024-05-19 21:02:14.433 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api) in 186.7511ms
+2024-05-19 21:02:14.436 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.AddDriver (Drifters.Api)'
+2024-05-19 21:02:14.438 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7222/api/Drivers - 201 null application/json; charset=utf-8 215.0947ms
+2024-05-19 21:02:33.498 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/api/Drivers/4 - null null
+2024-05-19 21:02:33.510 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.GetDriver (Drifters.Api)'
+2024-05-19 21:02:33.520 +02:00 [INF] Route matched with {action = "GetDriver", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Drifters.Domain.Entities.Driver]] GetDriver(Int32) on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 21:02:33.531 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.GetDriver (Drifters.Api) - Validation state: "Valid"
+2024-05-19 21:02:33.550 +02:00 [INF] Executed action method Drifters.Api.Controllers.DriversController.GetDriver (Drifters.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 13.4308ms.
+2024-05-19 21:02:33.558 +02:00 [INF] Executing OkObjectResult, writing value of type 'Drifters.Domain.Entities.Driver'.
+2024-05-19 21:02:33.563 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.GetDriver (Drifters.Api) in 35.984ms
+2024-05-19 21:02:33.569 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.GetDriver (Drifters.Api)'
+2024-05-19 21:02:33.575 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/api/Drivers/4 - 200 null application/json; charset=utf-8 77.447ms
+2024-05-19 21:03:01.405 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:7222/api/Drivers/4 - application/json 87
+2024-05-19 21:03:01.423 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.UpdateDriver (Drifters.Api)'
+2024-05-19 21:03:01.435 +02:00 [INF] Route matched with {action = "UpdateDriver", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateDriver(Int32, Drifters.Domain.Entities.Driver) on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 21:03:01.446 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.UpdateDriver (Drifters.Api) - Validation state: "Valid"
+2024-05-19 21:03:01.456 +02:00 [INF] Executed action method Drifters.Api.Controllers.DriversController.UpdateDriver (Drifters.Api), returned result Microsoft.AspNetCore.Mvc.BadRequestResult in 7.7804ms.
+2024-05-19 21:03:01.464 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-05-19 21:03:01.488 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.UpdateDriver (Drifters.Api) in 43.5308ms
+2024-05-19 21:03:01.499 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.UpdateDriver (Drifters.Api)'
+2024-05-19 21:03:01.504 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:7222/api/Drivers/4 - 400 null application/problem+json; charset=utf-8 98.336ms
+2024-05-19 21:03:29.146 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:7222/api/Drivers/4 - application/json 89
+2024-05-19 21:03:29.158 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.UpdateDriver (Drifters.Api)'
+2024-05-19 21:03:29.164 +02:00 [INF] Route matched with {action = "UpdateDriver", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateDriver(Int32, Drifters.Domain.Entities.Driver) on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 21:03:29.174 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.UpdateDriver (Drifters.Api) - Validation state: "Valid"
+2024-05-19 21:03:29.181 +02:00 [INF] Executed action method Drifters.Api.Controllers.DriversController.UpdateDriver (Drifters.Api), returned result Microsoft.AspNetCore.Mvc.BadRequestResult in 0.0666ms.
+2024-05-19 21:03:29.188 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-05-19 21:03:29.190 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.UpdateDriver (Drifters.Api) in 16.3378ms
+2024-05-19 21:03:29.202 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.UpdateDriver (Drifters.Api)'
+2024-05-19 21:03:29.208 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:7222/api/Drivers/4 - 400 null application/problem+json; charset=utf-8 61.6814ms
+2024-05-19 21:04:04.578 +02:00 [INF] Now listening on: https://localhost:7222
+2024-05-19 21:04:04.625 +02:00 [INF] Now listening on: http://localhost:5017
+2024-05-19 21:04:04.627 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-19 21:04:04.628 +02:00 [INF] Hosting environment: Development
+2024-05-19 21:04:04.629 +02:00 [INF] Content root path: C:\Users\Milan\Desktop\Drifters\Drifters.Api
+2024-05-19 21:04:05.528 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger - null null
+2024-05-19 21:04:05.617 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/index.html - null null
+2024-05-19 21:04:05.726 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger - 499 null null 202.7477ms
+2024-05-19 21:04:05.855 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/index.html - 200 null text/html;charset=utf-8 238.6761ms
+2024-05-19 21:04:05.914 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-19 21:04:05.922 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/swagger-ui.css - null null
+2024-05-19 21:04:05.923 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/_vs/browserLink - null null
+2024-05-19 21:04:05.926 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 11.7971ms
+2024-05-19 21:04:05.949 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-19 21:04:05.952 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/swagger-ui.css - 499 143943 text/css 30.7797ms
+2024-05-19 21:04:06.005 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.3537ms
+2024-05-19 21:04:06.069 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/favicon-32x32.png - null null
+2024-05-19 21:04:06.075 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-19 21:04:06.077 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/favicon-32x32.png - 499 628 image/png 7.7449ms
+2024-05-19 21:04:06.171 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - null null
+2024-05-19 21:04:06.501 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 330.7462ms
+2024-05-19 21:04:12.791 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/api/Drivers - null null
+2024-05-19 21:04:12.814 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api)'
+2024-05-19 21:04:12.855 +02:00 [INF] Route matched with {action = "GetDrivers", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Drifters.Domain.Entities.Driver]]] GetDrivers() on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 21:04:12.881 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api) - Validation state: "Valid"
+2024-05-19 21:04:13.614 +02:00 [INF] Executed action method Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 719.1451ms.
+2024-05-19 21:04:13.634 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Drifters.Domain.Entities.Driver, Drifters.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-19 21:04:13.652 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api) in 782.801ms
+2024-05-19 21:04:13.655 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api)'
+2024-05-19 21:04:13.658 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/api/Drivers - 200 null application/json; charset=utf-8 866.7666ms
+2024-05-19 21:04:32.378 +02:00 [INF] Request starting HTTP/2 PUT https://localhost:7222/api/Drivers/1 - application/json 87
+2024-05-19 21:04:32.386 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.UpdateDriver (Drifters.Api)'
+2024-05-19 21:04:32.398 +02:00 [INF] Route matched with {action = "UpdateDriver", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateDriver(Int32, Drifters.Domain.Entities.Driver) on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 21:04:32.444 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.UpdateDriver (Drifters.Api) - Validation state: "Valid"
+2024-05-19 21:04:32.529 +02:00 [INF] Driver updated successfully.
+2024-05-19 21:04:32.532 +02:00 [INF] Executed action method Drifters.Api.Controllers.DriversController.UpdateDriver (Drifters.Api), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 83.4098ms.
+2024-05-19 21:04:32.541 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-05-19 21:04:32.547 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.UpdateDriver (Drifters.Api) in 143.915ms
+2024-05-19 21:04:32.551 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.UpdateDriver (Drifters.Api)'
+2024-05-19 21:04:32.554 +02:00 [INF] Request finished HTTP/2 PUT https://localhost:7222/api/Drivers/1 - 204 null null 176.0639ms
+2024-05-19 21:04:38.722 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/api/Drivers - null null
+2024-05-19 21:04:38.736 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api)'
+2024-05-19 21:04:38.743 +02:00 [INF] Route matched with {action = "GetDrivers", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Drifters.Domain.Entities.Driver]]] GetDrivers() on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 21:04:38.753 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api) - Validation state: "Valid"
+2024-05-19 21:04:38.768 +02:00 [INF] Executed action method Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.2074ms.
+2024-05-19 21:04:38.777 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Drifters.Domain.Entities.Driver, Drifters.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-19 21:04:38.784 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api) in 32.6693ms
+2024-05-19 21:04:38.789 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api)'
+2024-05-19 21:04:38.792 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/api/Drivers - 200 null application/json; charset=utf-8 70.9999ms
+2024-05-19 21:04:58.072 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7222/api/Drivers/1 - null null
+2024-05-19 21:04:58.077 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api)'
+2024-05-19 21:04:58.085 +02:00 [INF] Route matched with {action = "DeleteDriver", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteDriver(Int32) on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 21:04:58.089 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api) - Validation state: "Valid"
+2024-05-19 21:04:58.108 +02:00 [INF] Driver deleted successfully.
+2024-05-19 21:04:58.110 +02:00 [INF] Executed action method Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 18.6776ms.
+2024-05-19 21:04:58.112 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-05-19 21:04:58.114 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api) in 25.4735ms
+2024-05-19 21:04:58.116 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api)'
+2024-05-19 21:04:58.117 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7222/api/Drivers/1 - 204 null null 45.5918ms
+2024-05-19 21:05:13.466 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/api/Drivers - null null
+2024-05-19 21:05:13.484 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api)'
+2024-05-19 21:05:13.488 +02:00 [INF] Route matched with {action = "GetDrivers", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Drifters.Domain.Entities.Driver]]] GetDrivers() on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 21:05:13.493 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api) - Validation state: "Valid"
+2024-05-19 21:05:13.501 +02:00 [INF] Executed action method Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7.1339ms.
+2024-05-19 21:05:13.503 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Drifters.Domain.Entities.Driver, Drifters.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-19 21:05:13.511 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api) in 18.9791ms
+2024-05-19 21:05:13.515 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api)'
+2024-05-19 21:05:13.517 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/api/Drivers - 200 null application/json; charset=utf-8 51.368ms
+2024-05-19 21:11:38.002 +02:00 [INF] Now listening on: https://localhost:7222
+2024-05-19 21:11:38.043 +02:00 [INF] Now listening on: http://localhost:5017
+2024-05-19 21:11:38.048 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-19 21:11:38.051 +02:00 [INF] Hosting environment: Development
+2024-05-19 21:11:38.055 +02:00 [INF] Content root path: C:\Users\Milan\Desktop\Drifters\Drifters.Api
+2024-05-19 21:11:40.313 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger - null null
+2024-05-19 21:11:40.420 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/index.html - null null
+2024-05-19 21:11:40.536 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger - 499 null null 229.728ms
+2024-05-19 21:11:40.665 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/index.html - 200 null text/html;charset=utf-8 248.9575ms
+2024-05-19 21:11:40.762 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/swagger-ui.css - null null
+2024-05-19 21:11:40.762 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-19 21:11:40.772 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/_vs/browserLink - null null
+2024-05-19 21:11:40.779 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 18.784ms
+2024-05-19 21:11:40.786 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-19 21:11:40.798 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/swagger-ui.css - 499 143943 text/css 35.4562ms
+2024-05-19 21:11:40.854 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.0314ms
+2024-05-19 21:11:40.951 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - null null
+2024-05-19 21:11:41.277 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 326.2553ms
+2024-05-19 21:11:48.785 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/api/Drivers - null null
+2024-05-19 21:11:48.798 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api)'
+2024-05-19 21:11:48.827 +02:00 [INF] Route matched with {action = "GetDrivers", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Drifters.Domain.Entities.Driver]]] GetDrivers() on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 21:11:48.848 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api) - Validation state: "Valid"
+2024-05-19 21:11:49.482 +02:00 [INF] Executed action method Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 624.7758ms.
+2024-05-19 21:11:49.496 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Drifters.Domain.Entities.Driver, Drifters.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-19 21:11:49.516 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api) in 675.6688ms
+2024-05-19 21:11:49.522 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.GetDrivers (Drifters.Api)'
+2024-05-19 21:11:49.528 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/api/Drivers - 200 null application/json; charset=utf-8 742.5128ms
+2024-05-19 21:12:00.320 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7222/api/Drivers/5 - null null
+2024-05-19 21:12:00.338 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api)'
+2024-05-19 21:12:00.366 +02:00 [INF] Route matched with {action = "DeleteDriver", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteDriver(Int32) on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 21:12:00.407 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api) - Validation state: "Valid"
+2024-05-19 21:12:00.552 +02:00 [INF] Driver deleted successfully.
+2024-05-19 21:12:00.558 +02:00 [INF] Executed action method Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 142.8901ms.
+2024-05-19 21:12:00.572 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-05-19 21:12:00.577 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api) in 199.0982ms
+2024-05-19 21:12:00.583 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api)'
+2024-05-19 21:12:00.586 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7222/api/Drivers/5 - 204 null null 266.0844ms
+2024-05-19 21:12:01.764 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7222/api/Drivers/5 - null null
+2024-05-19 21:12:01.781 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api)'
+2024-05-19 21:12:01.784 +02:00 [INF] Route matched with {action = "DeleteDriver", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteDriver(Int32) on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 21:12:01.796 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api) - Validation state: "Valid"
+2024-05-19 21:12:01.802 +02:00 [INF] Executed action method Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 4.6123ms.
+2024-05-19 21:12:01.809 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-05-19 21:12:01.827 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api) in 32.8805ms
+2024-05-19 21:12:01.834 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api)'
+2024-05-19 21:12:01.837 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7222/api/Drivers/5 - 404 null application/problem+json; charset=utf-8 74.1403ms
+2024-05-19 21:12:10.237 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7222/api/Drivers/7 - null null
+2024-05-19 21:12:10.250 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api)'
+2024-05-19 21:12:10.253 +02:00 [INF] Route matched with {action = "DeleteDriver", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteDriver(Int32) on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 21:12:10.264 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api) - Validation state: "Valid"
+2024-05-19 21:12:10.283 +02:00 [INF] Driver deleted successfully.
+2024-05-19 21:12:10.288 +02:00 [INF] Executed action method Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 16.4722ms.
+2024-05-19 21:12:10.293 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-05-19 21:12:10.297 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api) in 33.7903ms
+2024-05-19 21:12:10.301 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api)'
+2024-05-19 21:12:10.308 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7222/api/Drivers/7 - 204 null null 70.9646ms
+2024-05-19 21:12:16.127 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7222/api/Drivers/8 - null null
+2024-05-19 21:12:16.136 +02:00 [INF] Executing endpoint 'Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api)'
+2024-05-19 21:12:16.143 +02:00 [INF] Route matched with {action = "DeleteDriver", controller = "Drivers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteDriver(Int32) on controller Drifters.Api.Controllers.DriversController (Drifters.Api).
+2024-05-19 21:12:16.152 +02:00 [INF] Executing action method Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api) - Validation state: "Valid"
+2024-05-19 21:12:16.172 +02:00 [INF] Driver deleted successfully.
+2024-05-19 21:12:16.177 +02:00 [INF] Executed action method Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 18.6425ms.
+2024-05-19 21:12:16.183 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-05-19 21:12:16.188 +02:00 [INF] Executed action Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api) in 36.2671ms
+2024-05-19 21:12:16.195 +02:00 [INF] Executed endpoint 'Drifters.Api.Controllers.DriversController.DeleteDriver (Drifters.Api)'
+2024-05-19 21:12:16.197 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7222/api/Drivers/8 - 204 null null 70.9184ms

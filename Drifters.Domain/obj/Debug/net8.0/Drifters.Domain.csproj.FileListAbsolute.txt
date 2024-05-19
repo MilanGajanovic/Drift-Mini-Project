@@ -10,3 +10,4 @@ C:\Users\Milan\Desktop\Drifters\Drifters.Domain\obj\Debug\net8.0\refint\Drifters
 C:\Users\Milan\Desktop\Drifters\Drifters.Domain\obj\Debug\net8.0\Drifters.Domain.pdb
 C:\Users\Milan\Desktop\Drifters\Drifters.Domain\obj\Debug\net8.0\ref\Drifters.Domain.dll
 C:\Users\Milan\Desktop\Drifters\Drifters.Domain\obj\Debug\net8.0\Drifters.Domain.csproj.AssemblyReference.cache
+C:\Users\Milan\Desktop\Drifters\Drifters.Domain\obj\Debug\net8.0\Drifters.Domain.sourcelink.json

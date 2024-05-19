@@ -75,3 +75,14 @@ C:\Users\Milan\Desktop\Drifters\Drifters.Api\bin\Debug\net8.0\Drifters.Infrastru
 C:\Users\Milan\Desktop\Drifters\Drifters.Api\bin\Debug\net8.0\Drifters.Application.pdb
 C:\Users\Milan\Desktop\Drifters\Drifters.Api\bin\Debug\net8.0\Drifters.Infrastructure.pdb
 C:\Users\Milan\Desktop\Drifters\Drifters.Api\bin\Debug\net8.0\Drifters.Domain.pdb
+C:\Users\Milan\Desktop\Drifters\Drifters.Api\obj\Debug\net8.0\Drifters.Api.sourcelink.json
+C:\Users\Milan\Desktop\Drifters\Drifters.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Api\bin\Debug\net8.0\Serilog.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Api\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Api\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Api\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Api\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Api\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Api\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Api\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\Milan\Desktop\Drifters\Drifters.Api\bin\Debug\net8.0\Serilog.Sinks.File.dll
